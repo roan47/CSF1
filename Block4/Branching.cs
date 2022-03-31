@@ -129,6 +129,58 @@ namespace Block4
 
             Console.WriteLine("Moving on...");
 
+            Console.WriteLine("What was your score on the last klingon exam?");
+
+
+            //MINILAB! Ask the user for the score on their last Klingon exam. 
+            //tell them the letter grade. 90+ is A, 80-89 is B, 70-79 = C, 60-69 = D, anything less is an F.
+
+            Console.Write("Enter the score on your klingon exam: ");
+            byte testScore = byte.Parse(Console.ReadLine());
+
+            if (testScore >= 90)
+            {
+                Console.WriteLine("Great job! You got an A!!");
+            }//end if A
+            else if (testScore >= 80)
+            {
+                Console.WriteLine("Fair job.... B");
+            }//end if B
+            else if (testScore >= 70)
+            {
+                Console.WriteLine("Adequate.. C");
+            }//end if C
+            else if (testScore >= 60)
+            {
+                Console.WriteLine("Poor.... D");
+            }//end if D
+            else
+            {
+                Console.WriteLine("Dude... Did you even try?");
+            }//end if F
+
+
+
+
+
+
+
+
+
+
+            //ternary operator
+            //BooleanCondition ? trueResponse : falseResponse
+            Console.Write("How many Daleks are there?");
+            int dalekCount = int.Parse(Console.ReadLine());
+            Console.WriteLine("Oh, no! {0} Dalek{1}!",
+                dalekCount,
+                dalekCount == 1 ? "" : "s");
+
+         
+     
+
+          
+
 
         }//end main()
     }//end class
