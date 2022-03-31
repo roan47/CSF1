@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Block3
 {
-    internal class Logic
+    internal class Class1
     {
         static void Main(string[] args)
         {
