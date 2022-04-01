@@ -108,7 +108,7 @@ namespace Block4
             string stringname = "James Bond";
             // .IndexOf(" ") returns the index location of a specified char in the string.
             int location = stringname.IndexOf(" ");
-            string firstName = stringname.Substring(0, 5);
+            string firstName = stringname.Substring(0, 3);
             Console.WriteLine(firstName);
             //string firstName = stringname [..location];//does the same thing as above
             //string firstname = stringname.substring(0, locationg);

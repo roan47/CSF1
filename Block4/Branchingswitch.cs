@@ -32,7 +32,8 @@ namespace Block4
 
 
             Console.WriteLine("Enter a number?");
-            short userNumber = short.Pase(Console.ReadLine());
+            short userNumber = short.Parse(Console.ReadLine());
+
 
             switch (userNumber)
             {
