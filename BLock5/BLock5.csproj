@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>BLock5.LoopingForEach</StartupObject>
+    <StartupObject>BLock5.LoopingDoWhile</StartupObject>
   </PropertyGroup>
 
 </Project>
