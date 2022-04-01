@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Block4.arraylab</StartupObject>
+    <StartupObject>BLock5.LoopingForEach</StartupObject>
   </PropertyGroup>
 
 </Project>

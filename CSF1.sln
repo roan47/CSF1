@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Block2", "Block2\Block2.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Block3", "Block3\Block3.csproj", "{CE48D1EA-6760-4FF6-8311-01A9641BCBF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Block4", "Block4\Block4.csproj", "{ABB3A04C-7B01-417A-8909-444BFA8438E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Block4", "Block4\Block4.csproj", "{ABB3A04C-7B01-417A-8909-444BFA8438E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLock5", "BLock5\BLock5.csproj", "{47638D21-FA53-4AA7-B15C-BFAF33A95D43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{ABB3A04C-7B01-417A-8909-444BFA8438E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABB3A04C-7B01-417A-8909-444BFA8438E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABB3A04C-7B01-417A-8909-444BFA8438E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47638D21-FA53-4AA7-B15C-BFAF33A95D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47638D21-FA53-4AA7-B15C-BFAF33A95D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47638D21-FA53-4AA7-B15C-BFAF33A95D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47638D21-FA53-4AA7-B15C-BFAF33A95D43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
